@@ -1,4 +1,19 @@
 allow_embedding: false
+db_schema:
+  sisdata:
+    client: none
+    columns:
+    - admin_ui: {width: 200}
+      name: FeatureName
+      type: string
+    - admin_ui: {width: 200}
+      name: Value
+      type: number
+    - admin_ui: {width: 200}
+      name: Unit
+      type: string
+    server: full
+    title: SISData
 dependencies: []
 name: M3 App 1
 package_name: M3_App_1
