@@ -1,7 +1,7 @@
 allow_embedding: false
 db_schema:
   sisdata:
-    client: none
+    client: search
     columns:
     - admin_ui: {width: 200}
       name: FeatureName
@@ -14,6 +14,11 @@ db_schema:
       type: string
     server: full
     title: SISData
+  table_2:
+    client: none
+    columns: []
+    server: full
+    title: Table 2
 dependencies: []
 name: M3 App 1
 package_name: M3_App_1
